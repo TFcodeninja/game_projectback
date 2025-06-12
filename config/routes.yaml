@@ -1,5 +1,21 @@
-controllers:
-    resource:
-        path: ../src/Controller/
-        namespace: App\Controller
-    type: attribute
+# config/routes.yaml
+
+api_register:
+    path: /api/register
+    controller: App\Controller\AuthController::register
+    methods: [POST]
+
+api_login:
+    path: /api/login
+    controller: App\Controller\AuthController::login
+    methods: [POST]
+
+score_list:
+    path: /api/scores
+    controller: App\Controller\ScoreController::list
+    methods: [GET]
+
+score_create:
+    path: /api/scores
+    controller: App\Controller\ScoreController::create
+    methods: [POST]
