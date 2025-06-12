@@ -1,6 +1,7 @@
 
 ###> symfony/framework-bundle ###
 /vendor/
+/.env
 /.env.local
 /.env.dev
 /config/jwt/private.pem
