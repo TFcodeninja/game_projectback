@@ -1,12 +1,12 @@
 
 ###> symfony/framework-bundle ###
-/vendor/
-/.env
-/.env.local
-/.env.dev
+.env
+.env.local
+.env.dev
 /config/jwt/private.pem
 /config/secrets/
-
+/var/
+/vendor/
 ###< symfony/framework-bundle ###
 
 ###> lexik/jwt-authentication-bundle ###
